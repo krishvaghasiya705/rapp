@@ -1,0 +1,129 @@
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.home {
+    background-color: #f2f2f2;
+    color: #fff;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home h1,h1,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+
+.home img {
+    width: 70px;
+}
+
+.header-link {
+    display: flex;
+    gap: 50px;
+}
+
+.header-link a {
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+    font-weight: 500;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    transition: .5s ease-in-out;
+}
+
+.header-link a:hover {
+    scale: 1.5;
+    transition: .5s ease-in-out;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #000;
+}
+
+.button-main {
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 8px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button-main p {
+    font-size: 20px;
+    font-weight: 500;
+    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+
+
+/* .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  } */
+
+
+
+.herobaanner {
+    display: flex;
+    align-items: center;
+    min-height: 657px;
+}
+
+.herobaanner .first-hero-box {
+    background-color: #292d33;
+    height: 657px;
+    width: 743.4px;
+    text-align: right;
+}
+
+.herobaanner .first-hero-box .box-side-margin {
+    
+}
+
+.herobaanner .second-hero-box {
+    background-image: url(../../assets/image/download.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 775px;
+    min-height: 657px;
+    background-position: 100% 50%;
+    text-align: left;
+}
