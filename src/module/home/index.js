@@ -28,12 +28,12 @@ export default function Home() {
         </a>
 
         <div className="header-link">
-          <a href="#">One</a>
-          <a href="#">Two</a>
-          <a href="#">Three</a>
-          <a href="#">Four</a>
-          <a href="#">Five</a>
-          <a href="#">Six</a>
+          <a href="abc">One</a>
+          <a href="abc">Two</a>
+          <a href="abc">Three</a>
+          <a href="abc">Four</a>
+          <a href="abc">Five</a>
+          <a href="abc">Six</a>
         </div>
 
         <button className='button-main' type='button'><p>BUTTON</p></button>
